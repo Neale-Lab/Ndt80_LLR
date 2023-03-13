@@ -5,10 +5,8 @@
 rm(list=ls(all=TRUE)) # removes existing data
 
 library(xfun)
-# install_github("gb305/nealeLabData",auth_token="63a7cc92827add9796abb9894062ed48d936c979",force=FALSE,ref=)# https://github.com/settings/tokens
-library(nealeLabData)
-#install_github("gb305/Rpackages",auth_token="63a7cc92827add9796abb9894062ed48d936c979",force=FALSE,ref=)# https://github.com/settings/tokens
-library(nealeLabFunctions)
+install_github("Neale-Lab/CCTools",force=FALSE) # Install public CCTools package
+library(CCTools)
 
 #OTHER PACKAGES:
 library(GenomicRanges); library(stats4); library(BiocGenerics); library(S4Vectors)
