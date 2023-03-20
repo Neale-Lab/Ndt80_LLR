@@ -6,11 +6,11 @@
 library(data.table) ; library(e1071) ; library(GenomicFeatures) ; library(VennDiagram)
 
 #Load chromosome number and size
-setwd("/Users/ll381/Dropbox/TESIS_DOCTORAL/R/RFILES")
+setwd("ENTER WORKING DIRECTORY")
 chromlengths <- read.table("yeast_chrom_sizes.txt")
 
 #Set working directory to where the .rds file is (.rds containing fullmap info of all the strains used to identify hotspota)
-setwd("/Users/ll381/Dropbox/TESIS_DOCTORAL/R/RFILES/TEMPLATE_STUDY/CUTOOF_0.193/tel1D_control_rec8D_rec8Dtel1D") # Set wd
+setwd("ENTER WORKING DIRECTORY") # Set wd
 parent.directory <- getwd()
 files <- list.files(pattern = ".rds");files
 file.to.load <- 2L
