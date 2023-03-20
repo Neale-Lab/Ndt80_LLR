@@ -3,7 +3,7 @@
 
   #CHANGE TO WORKING DIRECTORY CONTAINING THE INPUT DATA MAPS
   # Load required dataset files:
-  setwd("/Users/ll381/Dropbox/TESIS_DOCTORAL/R/RFILES")
+  setwd("ENTER WORKING DIRECTORY")
   AllElementsDUB = read.table("AllElementsDUB_H4L2_Brar_2016.08.16.txt", sep = "\t", header=TRUE) #Import datatable
 
   # Now point at the data to be processed:
