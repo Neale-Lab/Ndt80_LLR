@@ -1,6 +1,7 @@
 # Ndt80_LLR
 
 Files and scripts associated with preprint 2023-03-12:
+https://www.biorxiv.org/content/10.1101/2023.03.20.533494v2
 
 Meiotic prophase length modulates Tel1-dependent DNA double-strand break interference 
 
